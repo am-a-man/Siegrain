@@ -2,15 +2,7 @@ var data = null;
 
 function selectNav(id)
 {
-    var divs = document.getElementById("navigation-bar").getElementsByTagName('div');
-
-    for(var i=0;i<divs.length;i++){
-        var a = divs[i].getElementsByTagName('a')[0];
-        a.style.backgroundColor = "var(--background-color)";
-        a.style.color = "black";
-    }
-    document.getElementById(id).getElementsByTagName('a')[0].style.backgroundColor = "grey";
-    document.getElementById(id).getElementsByTagName('a')[0].style.color = "white";
+//TODO
 }
 
 
@@ -99,9 +91,7 @@ async function getCommonItems()
     <div id="navigation-bar">
         
         <div id="name"><a href="#" onclick = "navInterface('showcase')" >
-            <p>
-                <b>Aman Kumar - student at IIIT Ranchi</b>
-            </p>
+            <img src="./assets/common/symbol.png">
         </a></div>
 
         <div id = "menu-bar" > 
@@ -112,14 +102,14 @@ async function getCommonItems()
         </div>
     </div>
 
-    <hr>
+ 
     <div id="showcase-pallete">
         <h1 style="text-transform:capitalize"></h1>
         <ul id="showcase-items"></ul>
     </div>
 
 
-    <hr>
+
     <div id="footer">
         <div id="left-footer"><p>
             <b>Aman Kumar</b>
@@ -137,16 +127,20 @@ async function getCommonItems()
             <br>
         </p></div>
         
-        <div id="right-footer"><p>
-            Email: avy0219@gmail.com 
-            <br>
-            Twitter : <a href="https://twitter.com/am__a_man">@am__a_man</a>
-            <br>
-            Github : <a href="https://github.com/am-a-man">@am-a-man</a>
-            <br>
-            Instagram : <a href="https://www.instagram.com/am__a_man_/">@am__a_man_</a>
-            <br>
-        </p></div>
+        <div id="right-footer">
+            <a href="mailto:avy0219@gmail.com"><img src="https://cdn.jsdelivr.net/npm/simple-icons@5.0.0/icons/gmail.svg"></a>
+            
+            <a href="https://twitter.com/am__a_man"><img src="https://cdn.jsdelivr.net/npm/simple-icons@5.0.0/icons/twitter.svg"></a>
+
+            <a href="https://linkedin.com/in/am--a-man"><img src="https://cdn.jsdelivr.net/npm/simple-icons@5.0.0/icons/linkedin.svg"> </a>
+            
+            <a href="https://github.com/am-a-man"><img src="https://cdn.jsdelivr.net/npm/simple-icons@5.0.0/icons/github.svg"> </a>
+           
+            <a href="https://www.instagram.com/am__a_man_/"><img src="https://cdn.jsdelivr.net/npm/simple-icons@5.0.0/icons/instagram.svg"> </a>
+            
+        </div>
+        <button type="button" onclick="moveContent(-1)"><img src=""> </button>
+        <button type="button" onclick="moveContent(+1)"><img src=""> </button>
     </div>
 
     `;
@@ -269,11 +263,11 @@ async function openShowcase()
 
 
 
-function responsiveScreen(x){
-    if(x.matches){
-        document.getElementsByTagName('body')[0].style.backgroundColor = "black";
-    }
-}
+// function responsiveScreen(x){
+//     if(x.matches){
+//         document.getElementsByTagName('body')[0].style.backgroundColor = "black";
+//     }
+// }
 
 
 function start(){
