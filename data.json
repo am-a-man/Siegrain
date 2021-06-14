@@ -1,0 +1,102 @@
+{
+    "projects":{
+        "project1":{
+            "title":"Lorem Ipsum dolor",
+            "stack":"Lorem, ipsum, dolor, sit",
+            "href":"#",
+            "logo":"./assets/common/wall.jpg"
+        },
+        "project2":{
+            "title":"Lorem Ipsum dolor",
+            "stack":"Lorem, ipsum, dolor, sit",
+            "href":"#",
+            "logo":"./assets/common/wall.jpg"
+        },
+        "project3":{
+            "title":"Lorem Ipsum dolor",
+            "stack":"Lorem, ipsum, dolor, sit",
+            "href":"#",
+            "logo":"./assets/common/wall.jpg"
+        },
+        "project4":{
+            "title":"Lorem Ipsum dolor",
+            "stack":"Lorem, ipsum, dolor, sit",
+            "href":"#",
+            "logo":"./assets/common/wall.jpg"
+        },
+        "project5":{
+            "title":"Lorem Ipsum dolor",
+            "stack":"Lorem, ipsum, dolor, sit",
+            "href":"#",
+            "logo":"./assets/common/wall.jpg"
+        },
+        "project6":{
+            "title":"Lorem Ipsum dolor",
+            "stack":"Lorem, ipsum, dolor, sit",
+            "href":"#",
+            "logo":"./assets/common/wall.jpg"
+        },
+        "project7":{
+            "title":"Lorem Ipsum dolor",
+            "stack":"Lorem, ipsum, dolor, sit",
+            "href":"#",
+            "logo":"./assets/common/wall.jpg"
+        }
+    },
+    "info":{
+        "info1":{
+             "title":"Lorem ipsum dolor",
+             "detail":"lorem ipusum dolor, sit",
+            "href":"#"
+        },
+        "info2":{
+            "title":"Lorem ipsum dolor",
+            "detail":"lorem ipusum dolor, sit",
+           "href":"#"
+       },
+       "info3":{
+             "title":"Lorem ipsum dolor",
+             "detail":"lorem ipusum dolor, sit",
+            "href":"#"
+        },
+        "info4":{
+            "title":"Lorem ipsum dolor",
+            "detail":"lorem ipusum dolor, sit",
+           "href":"#"
+       },
+       "info5":{
+             "title":"Lorem ipsum dolor",
+             "detail":"lorem ipusum dolor, sit",
+            "href":"#"
+        }
+
+    },
+    "updates":{
+        "info1":{
+             "title":"Lorem ipsum dolor",
+             "detail":"lorem ipusum dolor, sit",
+            "href":"#"
+        },
+        "info2":{
+            "title":"Lorem ipsum dolor",
+            "detail":"lorem ipusum dolor, sit",
+           "href":"#"
+       },
+       "info3":{
+             "title":"Lorem ipsum dolor",
+             "detail":"lorem ipusum dolor, sit",
+            "href":"#"
+        },
+        "info4":{
+            "title":"Lorem ipsum dolor",
+            "detail":"lorem ipusum dolor, sit",
+           "href":"#"
+       },
+       "info5":{
+             "title":"Lorem ipsum dolor",
+             "detail":"lorem ipusum dolor, sit",
+            "href":"#"
+        }
+
+    }
+}
