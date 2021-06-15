@@ -110,12 +110,12 @@ async function getCommonItems()
         <ul id="showcase-items" class="carousel-inner"></ul>
 
 
-        <a class="carousel-control-prev" href="#showcase-pallete" data-slide="prev">
+ <!---       <a class="carousel-control-prev" href="#showcase-pallete" data-slide="prev">
         <span class="carousel-control-prev-icon"></span>
       </a>
       <a class="carousel-control-next" href="#showcase-pallete"             data-slide="next">
         <span class="carousel-control-next-icon"></span>
-      </a>
+      </a> --->
     </div>
 
   
@@ -205,7 +205,7 @@ async function openInfo(){
             LI.setAttribute("class", "carousel-item")
         UL.appendChild(LI);
     }
-    document.getElementById("showcase-pallete").appendChild(UL2);
+    // document.getElementById("showcase-pallete").appendChild(UL2);
 
     var listItems=UL.innerHTML;
     showcaseItems.innerHTML = listItems;
@@ -255,7 +255,7 @@ async function openUpdates(){
         UL.appendChild(LI);
         
     }
-    document.getElementById("showcase-pallete").appendChild(UL2);
+    // document.getElementById("showcase-pallete").appendChild(UL2);
     var listItems=UL.innerHTML;
     showcaseItems.innerHTML=listItems;
 }
@@ -315,7 +315,7 @@ async function openShowcase()
             LI.setAttribute("class", "carousel-item")
         UL.appendChild(LI);
     };
-    document.getElementById("showcase-pallete").appendChild(UL2);
+    // document.getElementById("showcase-pallete").appendChild(UL2);
 
     var listItems = UL.innerHTML;
     showcaseItems.innerHTML = listItems;
